@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit as st
 
 # load dataset
-bike_sharing = pd.read_csv("all_data.csv")
+bike_sharing = pd.read_csv("dashboard/all_data.csv")
 bike_sharing['date'] = pd.to_datetime(bike_sharing['date'])
 
 # set title
